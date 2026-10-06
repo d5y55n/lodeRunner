@@ -1,0 +1,69 @@
+# Chronological Stability
+
+| timeframe | feature | metric | comparisons | all_four_quarters_same_sign | replication_same_pooled_sign |
+| --- | --- | --- | --- | --- | --- |
+| 15m | A1 | tp_first_rate | 24 | 0 | 20 |
+| 15m | A2 | tp_first_rate | 24 | 0 | 18 |
+| 15m | imbalance | tp_first_rate | 120 | 2 | 49 |
+| 15m | joint_delta | tp_first_rate | 360 | 81 | 254 |
+| 15m | joint_quantity | tp_first_rate | 360 | 30 | 281 |
+| 15m | mean_hours_since_last_contact | tp_first_rate | 120 | 40 | 95 |
+| 15m | mean_prior_crossings | tp_first_rate | 120 | 14 | 54 |
+| 15m | mean_prior_visits | tp_first_rate | 120 | 8 | 52 |
+| 15m | nearby_age_mean_hours | tp_first_rate | 120 | 11 | 38 |
+| 15m | nearby_count | tp_first_rate | 120 | 5 | 71 |
+| 15m | nearest_resistance_distance | tp_first_rate | 120 | 7 | 61 |
+| 15m | nearest_support_distance | tp_first_rate | 120 | 4 | 76 |
+| 15m | normalized_delta_difference | tp_first_rate | 360 | 77 | 192 |
+| 15m | overlap_pair_count | tp_first_rate | 48 | 0 | 12 |
+| 15m | resistance_delta | tp_first_rate | 360 | 87 | 263 |
+| 15m | resistance_normalized_delta | tp_first_rate | 360 | 83 | 273 |
+| 15m | resistance_quantity | tp_first_rate | 360 | 30 | 293 |
+| 15m | support_delta | tp_first_rate | 360 | 89 | 258 |
+| 15m | support_normalized_delta | tp_first_rate | 360 | 89 | 270 |
+| 15m | support_quantity | tp_first_rate | 360 | 31 | 287 |
+| 1d | A1 | tp_first_rate | 24 | 6 | 9 |
+| 1d | A2 | tp_first_rate | 24 | 0 | 10 |
+| 1d | full_map_imbalance | tp_first_rate | 48 | 0 | 36 |
+| 1d | imbalance | tp_first_rate | 120 | 6 | 50 |
+| 1d | joint_delta | tp_first_rate | 360 | 24 | 93 |
+| 1d | joint_quantity | tp_first_rate | 360 | 84 | 199 |
+| 1d | mean_hours_since_last_contact | tp_first_rate | 120 | 36 | 110 |
+| 1d | mean_prior_crossings | tp_first_rate | 120 | 6 | 48 |
+| 1d | mean_prior_visits | tp_first_rate | 120 | 0 | 56 |
+| 1d | nearby_age_mean_hours | tp_first_rate | 120 | 6 | 63 |
+| 1d | nearby_count | tp_first_rate | 120 | 0 | 69 |
+| 1d | nearest_resistance_distance | tp_first_rate | 120 | 6 | 85 |
+| 1d | nearest_support_distance | tp_first_rate | 120 | 6 | 96 |
+| 1d | normalized_delta_difference | tp_first_rate | 360 | 56 | 196 |
+| 1d | overlap_pair_count | tp_first_rate | 24 | 0 | 12 |
+| 1d | resistance_delta | tp_first_rate | 360 | 0 | 155 |
+| 1d | resistance_normalized_delta | tp_first_rate | 360 | 0 | 128 |
+| 1d | resistance_quantity | tp_first_rate | 360 | 16 | 106 |
+| 1d | support_delta | tp_first_rate | 360 | 12 | 111 |
+| 1d | support_normalized_delta | tp_first_rate | 360 | 30 | 130 |
+| 1d | support_quantity | tp_first_rate | 360 | 54 | 181 |
+| 4h | A1 | tp_first_rate | 24 | 0 | 14 |
+| 4h | A2 | tp_first_rate | 24 | 0 | 19 |
+| 4h | full_map_imbalance | tp_first_rate | 72 | 0 | 42 |
+| 4h | imbalance | tp_first_rate | 120 | 6 | 79 |
+| 4h | joint_delta | tp_first_rate | 360 | 2 | 216 |
+| 4h | joint_quantity | tp_first_rate | 360 | 151 | 217 |
+| 4h | mean_hours_since_last_contact | tp_first_rate | 120 | 68 | 81 |
+| 4h | mean_prior_crossings | tp_first_rate | 120 | 58 | 76 |
+| 4h | mean_prior_visits | tp_first_rate | 120 | 0 | 80 |
+| 4h | nearby_age_mean_hours | tp_first_rate | 120 | 34 | 48 |
+| 4h | nearby_count | tp_first_rate | 120 | 24 | 84 |
+| 4h | nearest_resistance_distance | tp_first_rate | 120 | 24 | 48 |
+| 4h | nearest_support_distance | tp_first_rate | 120 | 8 | 76 |
+| 4h | normalized_delta_difference | tp_first_rate | 360 | 104 | 222 |
+| 4h | resistance_delta | tp_first_rate | 360 | 1 | 178 |
+| 4h | resistance_normalized_delta | tp_first_rate | 360 | 4 | 238 |
+| 4h | resistance_quantity | tp_first_rate | 360 | 127 | 246 |
+| 4h | support_delta | tp_first_rate | 360 | 0 | 198 |
+| 4h | support_normalized_delta | tp_first_rate | 360 | 16 | 248 |
+| 4h | support_quantity | tp_first_rate | 360 | 133 | 238 |
+
+Each comparison is a detector/flow-window/outcome-grid cell. High-minus-low development quartile contrasts use frozen cuts in replication. Missing quarter/cell support is not a success. Same sign is not significance or predictive superiority. Full TP/SL, ambiguity, MFE and MAE contrasts are in reports/chronological-stability.csv; seven-day 1,000-draw bootstrap files remain next to each source table.
+
+2023 is the **previously inspected replication period**, not an untouched final test. No 2024 market data, confluence performance, score summation, parameter ranking, or trading rule is used. All findings are descriptive, with overlapping outcomes and unadjusted multiple comparisons; no edge claim.

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440">
+<rect width="900" height="440" fill="#faf7ef"/>
+<g font-family="Georgia,serif" fill="#253137">
+<text x="40" y="30" font-size="20">Normalized delta: LONG</text>
+<text x="40" y="53" font-size="12">Descriptive diagnostic; not a trading signal. No uncertainty interval shown.</text>
+<line x1="70" y1="330.00" x2="730" y2="330.00" stroke="#d4d4c8"/>
+<text x="8" y="334.00" font-size="12">0.405</text>
+<line x1="70" y1="270.00" x2="730" y2="270.00" stroke="#d4d4c8"/>
+<text x="8" y="274.00" font-size="12">0.417</text>
+<line x1="70" y1="210.00" x2="730" y2="210.00" stroke="#d4d4c8"/>
+<text x="8" y="214.00" font-size="12">0.430</text>
+<line x1="70" y1="150.00" x2="730" y2="150.00" stroke="#d4d4c8"/>
+<text x="8" y="154.00" font-size="12">0.443</text>
+<line x1="70" y1="90.00" x2="730" y2="90.00" stroke="#d4d4c8"/>
+<text x="8" y="94.00" font-size="12">0.455</text>
+<polyline points="70.00,286.26 143.33,272.73 216.67,196.34 290.00,227.86 363.33,186.40 436.67,126.59 510.00,127.14 583.33,110.00 656.67,278.90 730.00,240.04" fill="none" stroke="#15616d" stroke-width="2"/>
+<text x="40" y="395" font-size="12" fill="#15616d">SUPPORT</text>
+<polyline points="70.00,249.01 143.33,274.89 216.67,267.98 290.00,209.48 363.33,164.39 436.67,177.47 510.00,158.86 583.33,185.34 656.67,166.54 730.00,310.00" fill="none" stroke="#b24c32" stroke-width="2"/>
+<text x="320" y="395" font-size="12" fill="#b24c32">RESISTANCE</text>
+<text x="70.00" y="350" text-anchor="middle" font-size="11">-0.9</text>
+<text x="143.33" y="350" text-anchor="middle" font-size="11">-0.7</text>
+<text x="216.67" y="350" text-anchor="middle" font-size="11">-0.5</text>
+<text x="290.00" y="350" text-anchor="middle" font-size="11">-0.3</text>
+<text x="363.33" y="350" text-anchor="middle" font-size="11">-0.1</text>
+<text x="436.67" y="350" text-anchor="middle" font-size="11">0.1</text>
+<text x="510.00" y="350" text-anchor="middle" font-size="11">0.3</text>
+<text x="583.33" y="350" text-anchor="middle" font-size="11">0.5</text>
+<text x="656.67" y="350" text-anchor="middle" font-size="11">0.7</text>
+<text x="730.00" y="350" text-anchor="middle" font-size="11">0.9</text>
+<text x="300" y="375" font-size="13">Delta / quantity (bin midpoint)</text></g><text id="metric-label" x="70" y="75" font-family="Georgia,serif" font-size="11" fill="#253137">Y: Event-balanced TP-first fraction</text></svg>

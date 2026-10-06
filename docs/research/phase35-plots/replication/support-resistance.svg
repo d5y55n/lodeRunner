@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440">
+<rect width="900" height="440" fill="#faf7ef"/>
+<g font-family="Georgia,serif" fill="#253137">
+<text x="40" y="30" font-size="20">Type and direction</text>
+<text x="40" y="53" font-size="12">Descriptive diagnostic; not a trading signal. No uncertainty interval shown.</text>
+<line x1="70" y1="330.00" x2="730" y2="330.00" stroke="#d4d4c8"/>
+<text x="8" y="334.00" font-size="12">0.406</text>
+<line x1="70" y1="270.00" x2="730" y2="270.00" stroke="#d4d4c8"/>
+<text x="8" y="274.00" font-size="12">0.419</text>
+<line x1="70" y1="210.00" x2="730" y2="210.00" stroke="#d4d4c8"/>
+<text x="8" y="214.00" font-size="12">0.432</text>
+<line x1="70" y1="150.00" x2="730" y2="150.00" stroke="#d4d4c8"/>
+<text x="8" y="154.00" font-size="12">0.444</text>
+<line x1="70" y1="90.00" x2="730" y2="90.00" stroke="#d4d4c8"/>
+<text x="8" y="94.00" font-size="12">0.457</text>
+<polyline points="70.00,200.67 143.33,231.61 216.67,110.00 290.00,199.04 363.33,178.23 436.67,120.20 510.00,137.19 583.33,120.90 656.67,177.45 730.00,297.25" fill="none" stroke="#15616d" stroke-width="2"/>
+<text x="40" y="395" font-size="12" fill="#15616d">SUPPORT LONG</text>
+<polyline points="70.00,249.73 143.33,173.92 216.67,239.32 290.00,178.91 363.33,196.41 436.67,261.60 510.00,242.91 583.33,211.34 656.67,189.94 730.00,224.20" fill="none" stroke="#b24c32" stroke-width="2"/>
+<text x="320" y="395" font-size="12" fill="#b24c32">SUPPORT SHORT</text>
+<polyline points="70.00,238.55 143.33,218.01 216.67,220.90 290.00,149.71 363.33,188.93 436.67,169.51 510.00,131.07 583.33,167.18 656.67,239.63 730.00,310.00" fill="none" stroke="#6a753b" stroke-width="2"/>
+<text x="600" y="395" font-size="12" fill="#6a753b">RESISTANCE LONG</text>
+<polyline points="70.00,222.87 143.33,197.63 216.67,187.26 290.00,257.52 363.33,222.83 436.67,215.96 510.00,238.65 583.33,169.87 656.67,149.89 730.00,190.74" fill="none" stroke="#74617d" stroke-width="2"/>
+<text x="40" y="413" font-size="12" fill="#74617d">RESISTANCE SHORT</text>
+<text x="70.00" y="350" text-anchor="middle" font-size="11">1</text>
+<text x="143.33" y="350" text-anchor="middle" font-size="11">2</text>
+<text x="216.67" y="350" text-anchor="middle" font-size="11">3</text>
+<text x="290.00" y="350" text-anchor="middle" font-size="11">4</text>
+<text x="363.33" y="350" text-anchor="middle" font-size="11">5</text>
+<text x="436.67" y="350" text-anchor="middle" font-size="11">6</text>
+<text x="510.00" y="350" text-anchor="middle" font-size="11">7</text>
+<text x="583.33" y="350" text-anchor="middle" font-size="11">8</text>
+<text x="656.67" y="350" text-anchor="middle" font-size="11">9</text>
+<text x="730.00" y="350" text-anchor="middle" font-size="11">10</text>
+<text x="300" y="375" font-size="13">Historical delta decile</text></g><text id="metric-label" x="70" y="75" font-family="Georgia,serif" font-size="11" fill="#253137">Y: Event-balanced TP-first fraction</text></svg>

@@ -1,0 +1,18 @@
+{
+  "scoring_version": "scoring-v2-recency-normalized-inclusive",
+  "converging_version": "converging-v2-causal-slope-percentile",
+  "history_days": 850,
+  "half_life_days": 180,
+  "recency_floor": 0.25,
+  "outer_multiplier": 1.5,
+  "widths": {"15m": 0.002, "1h": 0.004, "4h": 0.007, "1d": 0.022},
+  "tf_weights": {"15m": 0.85, "1h": 0.7, "4h": 0.55, "1d": 1.0},
+  "balanced_band": 0.05,
+  "swing_ns": {"short": 2, "medium": 4, "long": 8},
+  "converging_history_days": 850,
+  "percentile_bands": [75, 90, 95],
+  "diagnostic_horizons": [4, 8, 16, 32],
+  "min_distribution_samples": 30,
+  "chart_candles": 240,
+  "replay_default": "2023-12-15T12:00:00Z"
+}
